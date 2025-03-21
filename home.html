@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+</head>
+<body>
+    <div class="select-container">
+        <h2>Customer Churn Prediction</h2>
+        <form action="/predict" method="post">
+            <div class="select-container">
+                <label for="query1">Senior Citizen:</label>
+                <select name="query1" id="query1" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query2">Partner:</label>
+                <select name="query2" id="query2" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query3">Dependents:</label>
+                <select name="query3" id="query3" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query4">Tenure Months:</label>
+                <input type="number" step = "any" name="query4" id="query4" required>
+            </div>
+            <div class="select-container">
+                <label for="query5">Multiple Lines:</label>
+                <select name="query5" id="query5" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No phone service">No phone service</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query6">Internet Service:</label>
+                <select name="query6" id="query6" required>
+                    <option value="No">No</option>
+                    <option value="Fiber optic">Fiber optic</option>
+                    <option value="DSL">DSL</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query7">Online Security:</label>
+                <select name="query7" id="query7" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No internet service</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query8">Online Backup:</label>
+                <select name="query8" id="query8" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No internet service</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query9">Device Protection:</label>
+                <select name="query9" id="query9" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No internet service</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query10">Tech Support:</label>
+                <select name="query10" id="query10" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No internet service</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query11">Streaming TV:</label>
+                <select name="query11" id="query11" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No internet service</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query12">Streaming Movies:</label>
+                <select name="query12" id="query12" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No internet service</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query13">Contract:</label>
+                <select name="query13" id="query13" required>
+                    <option value="Month-to-Month">Month-to-Month</option>
+                    <option value="One year">One year</option>
+                    <option value="Two year">Two year</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query14">Paperless Billing:</label>
+                <select name="query14" id="query14" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query15">Payment Method:</label>
+                <select name="query15" id="query15" required>
+                    <option value="Electronic Check">Electronic Check</option>
+                    <option value="Mailed Check">Mailed Check</option>
+                    <option value="Bank Transfer (Automatic)">Bank Transfer (Automatic)</option>
+                    <option value="Credit Card (Automatic)">Credit Card (Automatic)</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <label for="query16">Monthly Charges:</label>
+                <input type="number" step= "any" name="query16" id="query16" required>
+            </div>
+            <div class="select-container">
+                <label for="query17">Total Charges:</label>
+                <input type="number" step= "any" name="query17" id="query17" required>
+            </div>
+            <div class="select-container">
+                <label for="query18">CLTV:</label>
+                <input type="number" name="query18" id="query18" required>
+            </div>
+            <input type="submit" value="Predict">
+        </form>
+
+        
+        <style>
+            .select-container {
+              border: 1px solid #ccc; /* Add a border */
+              padding: 10px; /* Add some padding */
+              margin-bottom: 10px; /* Add margin below the container*/
+              border-radius: 5px; /*rounded corners*/
+            }
+            
+            /* Optional: Style the select element itself */
+            .select-container select {
+              width: 200px; /* Set a specific width */
+              padding: 5px;
+            }
+            </style>
+        <div>
+         <div class="result"></div>
+        
+        
+    </div>
+</body>
+</html>
