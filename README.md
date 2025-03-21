@@ -1,5 +1,11 @@
 #  Unlocking Customer Retention: Churn Analysis and Prediction
 
+
+https://github.com/user-attachments/assets/dc4bf4f2-d98c-4d7e-929a-6b1a0bffc5be
+
+
+
+
 Problem Statement: Telco a telecommunication company experienced a surge in short-term customer churn. This issue was addressed by customer behavior analysis to find potential causes and patterns of churn and a predictive model to identify at-risk customers.
 
 Data Collection: IBM Sample dataset from Kaggle is utilized.
