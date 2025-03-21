@@ -1,8 +1,7 @@
 #  Unlocking Customer Retention: Churn Analysis and Prediction
 
 
-https://github.com/user-attachments/assets/dc4bf4f2-d98c-4d7e-929a-6b1a0bffc5be
-
+https://github.com/user-attachments/assets/4c8afc1b-26c4-42f7-a2e5-c8aecdc323ce
 
 
 
