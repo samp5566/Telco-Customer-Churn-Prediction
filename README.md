@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/4c8afc1b-26c4-42f7-a2e5-c8aecdc323ce
 
 
 
-Problem Statement: Telco a telecommunication company experienced a surge in short-term customer churn. This issue was addressed by customer behavior analysis to find potential causes and patterns of churn and a predictive model to identify at-risk customers.
+Problem Statement: Telco a telecommunication company experienced a surge in short-term customer churn. This issue was addressed by customer behavior analysis to find potential causes and patterns of churn and a predictive model to identify at-risk customers with confidence.
 
 Data Collection: IBM Sample dataset from Kaggle is utilized.
 
